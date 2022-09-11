@@ -105,7 +105,10 @@ class _AppName extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        const Text('VIDEO', style: textStyle),
+        const Text(
+          'VIDEO',
+          style: textStyle,
+        ),
         Text(
           'PLAYER',
           style: textStyle.copyWith(
